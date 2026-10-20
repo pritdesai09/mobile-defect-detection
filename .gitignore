@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+# Node frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+# Secrets / local settings
+.env
+.env.*
+!.env.example
+# User data and model weights
+data/**
+!data/.gitkeep
+artifacts/**
+!artifacts/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+# Generated results and images
+results/**
+!results/.gitkeep
+backend/uploads/
+backend/generated/
+*.sqlite3
+*.db
+# OS / editor
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/

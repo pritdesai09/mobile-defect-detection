@@ -1,0 +1,17 @@
+# Core (all preinstalled on Google Colab)
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24
+Pillow>=10.0
+scikit-learn>=1.3
+scikit-image>=0.22
+scipy>=1.11
+opencv-python>=4.8      # screen ROI detection / perspective warp
+
+# SAM 2.1 (installed from source; no PyPI release):
+#   pip install "git+https://github.com/facebookresearch/sam2.git"
+# DINOv2 weights are fetched automatically by torch.hub (needs internet on first run).
+
+# Utility / notebook
+matplotlib>=3.8
+tqdm>=4.66
