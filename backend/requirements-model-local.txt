@@ -1,0 +1,9 @@
+# Install AFTER the Colab export, if running DINOv2 locally. CPU inference can be slow.
+-r requirements.txt
+numpy>=1.24
+scipy>=1.11
+scikit-image>=0.22
+opencv-python>=4.8
+scikit-learn>=1.3
+torch>=2.1
+torchvision>=0.16
